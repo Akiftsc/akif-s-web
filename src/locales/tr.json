@@ -1,0 +1,22 @@
+{
+  "loading": "Yükleniyor...",
+  "nav_1": "Eğitim",
+  "nav_2": "Beceriler",
+  "nav_3": "İletişim",
+  "greeting": "Merhaba! Ben Mehmet Akif Taşçı. Web geliştirme ve yabancı dillere yoğun ilgi duyuyorum. Şu anda İngilizce ve Almanca öğreniyorum.  Yukarıdaki ikonlara tıklayarak Github ve Twitter adreslerime ulaşabilirsiniz.",
+  "edu": "EĞİTİM",
+  "skills": "BECERİLER",
+  "contact": "İLETİŞİM",
+  "contact_name": "İsim",
+  "contact_msg": "Mesaj",
+  "send": "Gönder",
+  "sent": "Gönderildi",
+  "sent_err": "Gönderilirken Hata Oluştu",
+  "contact_email": "E-posta",
+  "primarySchool": "İbrahim Hakkı Konyalı İlkokulu",
+  "middleSchool": "Rasathane Ortaokulu",
+  "highSchool": "Bülent Akarcalı Anadolu Lisesi",
+  "projects": "AKTİF PROJELER",
+  "projects_baal": "BAAL Münazara Kulübü Websitesi",
+  "flag": "british.svg"
+}

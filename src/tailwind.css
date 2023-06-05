@@ -1,0 +1,178 @@
+/* Coded By Mehmet Akif Taşçı at 19.04.2023 */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Space Mono', monospace;
+  background-color: #f4f7ff;
+  overflow-x: hidden;
+}
+
+.title{
+  font-family: 'Rubik', sans-serif;
+}
+
+nav{
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-color {
+  background-color: #f4f7ff;
+}
+
+
+.navBlack{
+  background: black;
+  color: #f4f7ff;
+}
+
+.navBlack .link:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #f4f7ff;
+  transition: transform 0.3s;
+}
+
+
+.link {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+
+
+
+.link:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s;
+}
+
+.link:hover:after {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
+
+
+.blob-img {
+  width: 100%;
+  height: 50%;
+}
+
+.EduBox {
+  background: #F4F7FF;
+  box-shadow: 14px 24px 16px rgba(28, 38, 71, 0.05), inset 3px 4px 4px #FFFFFF;
+  border-radius: 25px;
+  padding: 32px 64px;
+  width: 100%;
+}
+.SkillBox {
+  background: #F4F7FF;
+  box-shadow: 14px 24px 16px rgba(28, 38, 71, 0.05), inset 3px 4px 4px #FFFFFF;
+  border-radius: 25px;
+  padding: 32px 64px;
+  width: 100%;
+}
+
+#root>div>section.mx-8.my-24.flex.justify-center.items-center>div>div{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+#root>div>section.mx-8.my-24.flex.justify-center.items-center>div>div p{
+  font-size: 50px;
+}
+
+
+.edusec{
+  gap: 216px;
+  flex-direction: column;
+}
+
+.w-full{
+  width: 100% !important;
+}
+
+@media (min-width: 768px) {
+  .blob-img {
+      margin-top: 10px;
+      width: 400px;
+      height: 400px;
+    }
+
+    .EduBox{
+      width: 50%;
+    }
+    .SkillBox{
+      width: 50%;
+    }
+
+    .edusec{
+      flex-direction: row;
+    }
+
+    #root>div>section.mx-8.my-24.flex.justify-center.items-center>div>div {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+
+.field{
+      border: 1px solid #000;
+        width: 100%;
+        border-radius: 2px;
+        background: #F4F7FF;
+        height: 36px;
+}
+
+.label{
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+  font-size: 16px;
+  line-height: 24px;
+  width: 49px;
+  height: 24px;
+}
+
+
+
+.sendBtn{
+  justify-content: center;
+  align-items: center;
+  text-align: center !important; 
+  width: auto;
+  height: 36px;
+  background: #000000;
+  color: #fff;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  padding: 0px 10px;
+}
+
+@tailwind base;
+
+@tailwind components;
+
+
+
+@tailwind utilities;

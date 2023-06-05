@@ -1,0 +1,21 @@
+{
+  "loading": "Loading...",
+  "nav_1": "Education",
+  "nav_2": "Skills",
+  "nav_3": "Contact",
+  "greeting": "Hello! My name is Mehmet Akif Taşçı. I'm interested keen on Web developing and foreign languages. I'm learning English and German as foreign languages. You can easily access to my Twitter and Github account by clicking icons above.",
+  "edu": "EDUCATION",
+  "skills": "SKILLS",
+  "contact": "CONTACT",
+  "contact_name": "Name",
+  "contact_msg": "Message",
+  "send": "Send",
+  "sent": "Sent",
+  "sent_err": "An unexpected error occurred while sending",
+  "contact_email": "E-Mail",
+  "primarySchool": "Primary of İbrahim Hakkı Konyalı",
+  "middleSchool": "Middleschool of Rasathane",
+  "highSchool": "Highschool of Bülent Akarcalı Anadolu",
+  "projects": "ACTIVE PROJECTS",
+  "projects_baal": "Website of debate club of Highschool of Bülent Akarcalı."
+}
