@@ -11,7 +11,7 @@ const CustomIcon = ({ name }) => {
 
 function SkillComponent({ text, icon }) {
     return (
-        <p className='flex flex-col items-center justify-center text-center'>
+        <p className='flex flex-col items-center justify-center text-center skillItem'>
             <CustomIcon name={icon} />
             <h3 className='font-bold text-base text-center'>{text}</h3>
         </p>

@@ -35,6 +35,11 @@ nav{
   color: #f4f7ff;
 }
 
+.navBlack .active{
+  background-color: white;
+  color: black;
+}
+
 .navBlack .link:after {
   content: '';
   position: absolute;
@@ -94,11 +99,11 @@ nav{
   width: 100%;
 }
 
-#root>div>section.mx-8.my-24.flex.justify-center.items-center>div>div{
+.skillParent{
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-#root>div>section.mx-8.my-24.flex.justify-center.items-center>div>div p{
+.skillItem{
   font-size: 50px;
 }
 
@@ -130,8 +135,8 @@ nav{
       flex-direction: row;
     }
 
-    #root>div>section.mx-8.my-24.flex.justify-center.items-center>div>div {
-      grid-template-columns: repeat(4, minmax(0, 1fr));
+    .skillParent {
+      grid-template-columns: repeat(6, minmax(0, 1fr));
     }
 }
 
@@ -167,6 +172,42 @@ nav{
   border-radius: 2px;
   margin-bottom: 10px;
   padding: 0px 10px;
+}
+
+footer {
+     position: absolute; 
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+#home-footer{
+  position:unset;
+  width: 100%;
+  height: 60px;
+}
+
+.blog{
+  font-size:18px;
+}
+
+.blog h1{
+  font-size: 36px;
+  height: 36px;
+  text-align: center;
+  width: full;
+  font-weight: bolder;
+  display: block;
+  text-transform: uppercase;
+}
+
+.blog a{
+  text-decoration: underline;
+}
+
+a.active{
+  background-color: black;
+  color: white;
 }
 
 @tailwind base;
